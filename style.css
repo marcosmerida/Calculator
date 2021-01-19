@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+*{
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+}
+
+header{
+    color: royalblue;
+    font-size: 50px;
+    text-decoration: underline double 5px ; 
+    margin-bottom: -30px;
+    margin-top: -30px; 
+}
+body{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 440px;
+    margin: 50px auto auto auto;
+    text-align:center;
+    box-shadow: 5px 9px #1E1F1F;
+    
+}
+.calculator{
+    margin: auto;
+    text-align: center;
+}
+.calculator button{
+    color: royalblue;
+    
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    transition: 0.05s;
+}
+.calculator button:hover{
+    border: 1px solid white;
+    outline: none;
+    transition: 0.05s;
+    font-size: 33px;    
+}
+#resultado{
+    display: grid;
+    grid-template-rows: 20px 20px 20px;
+    grid-template-columns:20px 20px 20px ;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 40px;    
+    text-align: start;
+    width: 251px;
+    height: 70px;
+    margin: -10px auto 10px;
+    overflow-y: hidden;
+}
+
+
+
